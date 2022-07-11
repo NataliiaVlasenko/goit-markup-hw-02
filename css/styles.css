@@ -10,10 +10,6 @@
   --black: rgba(0, 0, 0, 1);
 }
 
-h2,
-h3 {
-  color: var(--headers-color);
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -35,13 +31,20 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  line-height: 1.7;
+  
 }
 
-a {
+ /*body a {
+  text-decoration: none;
+  color: inherit;
+}*/
+
+.link-global {
   text-decoration: none;
   color: inherit;
 }
+
+
 .link-nav:hover,
 .link-nav:focus,
 .auth-link:hover,
@@ -49,9 +52,12 @@ a {
   color: var(--accent-color);
 }
 
+/*
 ul {
   list-style: none;
-}
+}*/
+
+.list {list-style: none;}
 
 .logo {
   color: var(--accent-color);
@@ -70,11 +76,13 @@ ul {
   color: var(--white-color);
 }
 .site-nav {
+  list-style: none;
   color: var(--headers-color);
 }
 
 .site-nav,
 .auth-nav {
+  list-style: none;
   line-height: 1;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -133,6 +141,8 @@ ul {
 }
 
 .conseption-title {
+  color: var(--headers-color);
+
   font-weight: 700;
   line-height: 16px;
   line-height: 1.2;
@@ -143,12 +153,15 @@ ul {
 }
 
 .section-title {
+  color: var(--headers-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
 }
 
 .team-title {
+  color: var(--headers-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -169,6 +182,8 @@ ul {
   background-color: var(--white-color);
 }
 .projects-ex-title {
+  color: var(--headers-color);
+
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
