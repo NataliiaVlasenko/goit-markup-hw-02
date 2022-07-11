@@ -1,7 +1,3 @@
-
-
-
-
 {
   "arrowParens": "avoid",
   "bracketSpacing": true,
@@ -19,5 +15,6 @@
   "trailingComma": "all",
   "useTabs": true,
   "vueIndentScriptAndStyle": false,
-  "singleAttributePerLine": false
+  "singleAttributePerLine": false,
+  "cSpell.language": "en,uk,ru"
 }
